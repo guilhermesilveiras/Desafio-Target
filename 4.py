@@ -1,3 +1,5 @@
+#Um dos modos para descobrir qual interruptor liga qual sala é ligar um dos interruptores e esperar um pouco, depois desligar e ligar um segundo interruptor e o deixar ligado. Após isso, ir até a sala. A lâmpada desligada e QUENTE tem ligação ao interruptor que foi previamente ligado e desligado (o primeiro), a lâmpada acesa ao interruptor que deixamos ligado (o segundo), e a única lâmpada desligada e fria corresponde ao interruptor que não mexemos
+
 class Lampada:
     def __init__(self):
         self.acesa = False
